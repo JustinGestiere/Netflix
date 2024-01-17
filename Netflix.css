@@ -1,0 +1,305 @@
+/*CSS pour toute la maquette*/
+*{
+font-family: Helvetica;
+}
+
+
+
+
+
+/*En général dans tout le site*/
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+.texte{
+color: #FFFFFF;
+text-align: center;
+}
+
+
+
+
+
+/*Première partie bandeau blanc*/
+/*Fond blanc + disposition des div*/
+.un{
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    height: 60px;
+}
+
+
+/*Texte new + fond rouge*/
+.New{
+    display: flex;
+    color: white;
+    background-color: #E50914;
+    padding: 6px 10px 3px 10px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 25% / 60%;
+    height: 15px;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+/*Ecriture bleu + fleche bleue*/
+.learnmore{
+    text-decoration: none;
+    color: #0071EB;
+    font-weight: bold;
+    margin: 0px 10px 0px 35px;
+}
+
+
+
+
+
+/*Deuxième partie bandeau image catalogue netflix*/
+/*Fond catalogue netflix*/
+.deux{
+    background:
+    linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(255,255,255,0.01)),
+    linear-gradient(to top, rgba(0,0,0,0.9), rgba(255,255,255,0.01)),
+    url("ImagesNetflix/catalogue.png");
+    width: 100%;
+    height: 729.38px;
+    border-top: 15px solid #000000;
+}
+
+
+/*Haut du catalogue*/
+.bandeaunetflix{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 34px;
+}
+.Netflix{
+    margin: 30px 22px;
+}
+.English1{
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: solid;
+    padding: 9px 20px 22px 20px;
+    margin: 0px 5px 0px 0px;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #AAAAAA;
+    height: 30px;
+    color: white;
+}
+.Sign{
+    background-color: #E50914;
+    text-decoration: none;
+    border: none;
+    padding: 8px 17px 24px 17px;
+    margin: 0px 0px 0px 30px;
+    border-radius: 3px;
+    height: 25px;
+    font-size: 16px;
+    color: white
+}
+
+
+/*Partie texte*/
+.tdeuxun{
+    font-size: 62px;
+    padding: 158px 0px 0px 10px;
+}
+.tmdeuxdeux{
+    font-size: 25px;
+    padding: 13px 0px 0px 18px;
+}
+.tpdeuxtrois{
+    font-size: 18.2px;
+    padding: 33px 0px 20px 20px;
+}
+
+
+/*Partie email + bouton get started*/
+/*Partie email*/
+.bandeauemail{
+    display: flex;
+    justify-content: center;
+}
+.email{
+    width: 490px;
+}
+
+
+/*Bouton get started*/
+.Get{
+    text-decoration: none;
+    border: none;
+    background-color: #E50914;
+    color: #ffffff;
+    font-size: 29px;
+    height: 70px;
+    width: 241px;
+}
+
+
+
+
+
+/*Troisième partie bandeau noir TV*/
+/*Trois qui prend tout en global*/
+.trois{
+border-top: 10px solid #222222;
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: center;
+height: 500px;
+}
+.ttroisun{
+    font-size: 49px;
+    text-align: left;
+    padding: 0px 120px;
+}
+.tmtroisdeux{
+    font-size: 26px;
+    text-align: left;
+    padding: 0px 120px;
+}
+
+
+
+
+
+/*Quatrième partie bandeau noir TV,TABLETTE,PHONE*/
+/*Quatre qui prend tout en global*/
+.quatre{
+    border-top: 10px solid #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.tquatreun{
+    font-size: 48px;
+    text-align: left;
+    padding: 0px 50px;
+}
+.tmquatredeux{
+    font-size: 26px;
+    text-align: left;
+    padding: 0px 50px;
+}
+
+
+
+
+
+/*Cinquième partie bandeau noir Profiles Kids*/
+/*Cinq qui prend tout en global*/
+.cinq{
+    border-top: 10px solid #222222;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.tcinqun{
+    font-size: 47px;
+    text-align: left;
+    padding: 0px 120px;
+}
+.tmcinqdeux{
+    font-size: 26px;
+    text-align: left;
+    padding: 0px 120px;
+}
+
+
+
+
+
+/*Sixième partie bandeau noir Downloads*/
+/*Six qui prend tout en global*/
+.six{
+    border-top: 10px solid #222222;
+    border-bottom: 10px solid #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.tsixun{
+    font-size: 50px;
+    text-align: left;
+    padding: 0px 100px;
+}
+.tmsixdeux{
+    font-size: 25px;
+    text-align: left;
+    padding: 0px 100px;
+}
+
+
+
+
+
+/*Pied de la maquette partie bandeau conditions utilisateurs*/
+/*Footer qui prend tout en global*/
+footer{
+    text-align: left;
+    margin: 0 600px;
+    padding: 35px ;
+}
+
+
+/*Premier texte partie sept*/
+.endtxt{
+    color: #737373;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+
+/*Liste partie sept*/
+.annuaire{
+    display: flex;
+    align-items: flex-start;
+}
+.list{
+    list-style-type: none;  
+    flex-grow: 1;
+}
+.list a{
+    display: block;
+    text-decoration: none;
+    color: #737373;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+
+/* Boutton English à la fin */
+.English2{
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: solid;
+    padding: 12px 20px 26px 34px;
+    margin: 10px 5px 0px 0px;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #333333;
+    height: 30px;
+    color: #999999;
+}
